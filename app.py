@@ -11,6 +11,7 @@ import pysqlite3 as sqlite3
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+import chromadb
 
 # Configurations
 st.set_page_config(page_title="RAG for Medical Record Extraction", layout="wide")
