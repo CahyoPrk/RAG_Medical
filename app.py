@@ -6,6 +6,7 @@ from langchain.vectorstores import Chroma
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
 import tempfile
+import rapidocr_onnxruntime 
 
 # Configurations
 st.set_page_config(page_title="RAG for Medical Record Extraction", layout="wide")
