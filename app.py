@@ -60,7 +60,7 @@ def main():
 
                 # LLM Model (Gemini for structured extraction)
                 model = ChatGoogleGenerativeAI(
-                    model="gemini-pro",
+                    model="gemini-1.5-flash-8b",
                     google_api_key=google_api_key,
                     temperature=0.2,
                     convert_system_message_to_human=True
