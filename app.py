@@ -76,10 +76,13 @@ def main():
                 query = """
                 Extract the following information from the medical record:
                 1. Nama Pasien
-                2. Tanggal Lahir
-                3. Nama Dokter
-                4. Diagnosa
-                5. Total Biaya
+                2. NIK Pasien
+                3. Tanggal Lahir
+                4. Nama Dokter
+                5. Tanggal Kunjungan
+                6. Diagnosa
+                7. Jenis Perawatan
+                8. Total Biaya
                 Please ensure the data is structured and clearly separated.
                 """
 
