@@ -45,6 +45,7 @@ def main():
                 pdf_loader = PyPDFLoader(temp_file_path, extract_images=True)
                 pages = pdf_loader.load_and_split()
                 context = "\n\n".join(str(p.page_content) for p in pages)
+                context = context.replace("\n", " ").replace("  ", " ")
 
                 # Text Splitting
                 text_splitter = RecursiveCharacterTextSplitter(chunk_size=10000, chunk_overlap=1000)
