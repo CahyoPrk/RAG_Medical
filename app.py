@@ -6,7 +6,6 @@ from langchain.vectorstores import Chroma
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
 import tempfile
-import chromadb
 
 # Configurations
 st.set_page_config(page_title="RAG for Medical Record Extraction", layout="wide")
@@ -17,8 +16,6 @@ google_api_key = st.sidebar.text_input("Google API Key", type="password")
 
 def main():
     st.title("Extract Information from Medical Records (Scanned PDF)")
-    
-    chromadb.api.client.SharedSystemClient.clear_system_cache()
     
     # File Upload
     uploaded_file = st.file_uploader("Upload a Scanned PDF file", type="pdf")
