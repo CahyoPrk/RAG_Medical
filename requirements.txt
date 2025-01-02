@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain-google-genai
+google-generativeai
+chromadb
+PyPDF2
+langchain-community
+pypdf
+rapidocr-onnxruntime
