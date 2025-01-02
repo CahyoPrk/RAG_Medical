@@ -8,3 +8,4 @@ langchain-community
 pypdf
 rapidocr-onnxruntime
 opencv-python-headless
+streamlit-chromadb-connection
