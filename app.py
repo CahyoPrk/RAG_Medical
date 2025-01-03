@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 from langchain.chains import RetrievalQA
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -12,6 +11,7 @@ __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import chromadb
+import cv2
 
 # Configurations
 st.set_page_config(page_title="RAG for Medical Record Extraction", layout="wide")
