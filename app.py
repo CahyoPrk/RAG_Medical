@@ -6,6 +6,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
 import tempfile
+import cv2
 import pysqlite3 as sqlite3
 __import__('pysqlite3')
 import sys
