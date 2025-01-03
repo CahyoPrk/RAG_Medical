@@ -6,7 +6,6 @@ chromadb
 PyPDF2
 langchain-community
 pypdf
-opencv-python-headless
 rapidocr-onnxruntime
 streamlit-chromadb-connection
 pysqlite3-binary
