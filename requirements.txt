@@ -10,4 +10,3 @@ rapidocr-onnxruntime
 opencv-python-headless
 streamlit-chromadb-connection
 pysqlite3-binary
-tensorflow
