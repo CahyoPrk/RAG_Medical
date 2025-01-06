@@ -9,4 +9,4 @@ pypdf
 rapidocr-onnxruntime
 streamlit-chromadb-connection
 pysqlite3-binary
-opencv-python-headless
+
