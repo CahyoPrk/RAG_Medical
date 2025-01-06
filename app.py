@@ -13,6 +13,7 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import chromadb
 import cv2
 
+chromadb.api.client.SharedSystemClient.clear_system_cache()
 # Configurations
 st.set_page_config(page_title="RAG for Medical Record Extraction", layout="wide")
 
